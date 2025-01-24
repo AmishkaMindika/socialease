@@ -120,20 +120,6 @@ function App() {
         </div>
       </section>
 
-     
-
-      
-        
-      
-
-        
-      
-      
-
-      
-
-     
-
       <footer className="footer">
         
         
