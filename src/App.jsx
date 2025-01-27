@@ -10,7 +10,7 @@ function App() {
           
           <a href="#home" className="nav-link">Home</a>
           <a href="#about" className="nav-link">About</a>
-          <a href="#services" className="nav-link">Fetures</a>
+          <a href="#services" className="nav-link">Features</a>
           <a href="#contact" className="nav-link">Contact Us</a>
           <a href="#joinus " className="nav-linkv">JOIN </a>
         </nav>
@@ -34,7 +34,7 @@ function App() {
         <img className="underjpgr"  src="socialeasefronty5.gif" alt="Example from Public Folder" />
       </section>
       <section className="services" id="services">
-        <h2>Fetures</h2>
+        <h2>Features</h2>
         <p> </p>
         <div className="service-cards">
           <div className="card">
