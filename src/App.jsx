@@ -60,8 +60,7 @@ function App() {
           ease. Social Ease is designed to help individuals, especially
           introverts and those with social anxiety, build and refine
           communication skills.
-        </p>
-        <p>
+       
           The app provides practical, engaging tools to simulate real-world
           interactions and enhance user confidence.
         </p>
