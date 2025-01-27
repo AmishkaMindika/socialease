@@ -42,9 +42,9 @@ function App() {
             sequence={[
               "Welcome to Social Ease", // First text
               1000, // Wait 1 second
-              "Empowering Your Communication Skills", // Second text
+              "Empowering Your Communication Skills...", // Second text
               1000, // Wait 1 second
-              "Refine Your Social Confidence", // Third text
+              "Refine Your Social Confidence...", // Third text
               1000, // Wait 1 second
             ]}
             wrapper="span"
