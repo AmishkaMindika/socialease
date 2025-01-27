@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+//header
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         
         <img className="underjpgr"  src="socialeasefronty5.gif" alt="Example from Public Folder" />
       </section>
+
       <section className="services" id="services">
         <h2>Features</h2>
         <p> </p>
@@ -95,6 +97,7 @@ function App() {
           
           
         </div>
+      
         
         
         
