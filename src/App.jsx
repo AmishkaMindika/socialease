@@ -1,131 +1,209 @@
 import React from "react";
 import "./App.css";
-//header
+import { TypeAnimation } from "react-type-animation";
 
 function App() {
   return (
     <div className="App">
+      {/* Header */}
       <header className="header">
-        <div  ><img className="logo" src="socialeaselogo3png.png" alt="Example from Public Folder" /> </div>
+        <div>
+          <img
+            className="logo"
+            src="socialeaselogo3png.png"
+            alt="Social Ease Logo"
+          />
+        </div>
         <nav className="nav">
-          
-          <a href="#home" className="nav-link">Home</a>
-          <a href="#about" className="nav-link">About</a>
-          <a href="#services" className="nav-link">Features</a>
-          <a href="#contact" className="nav-link">Contact Us</a>
-          <a href="#joinus " className="nav-linkv">JOIN </a>
+          <a href="#home" className="nav-link">
+            Home
+          </a>
+          <a href="#about" className="nav-link">
+            About
+          </a>
+          <a href="#features" className="nav-link">
+            Features
+          </a>
+          <a href="#contact" className="nav-link">
+            Contact Us
+          </a>
+          <a href="#join" className="nav-button">
+            Join Us
+          </a>
         </nav>
-        
       </header>
 
-      
-      
-
-      
-      
+      {/* Hero Section */}
       <section className="hero" id="home">
-      <img className="underjpg" src="socialeasefront1gif.gif" alt="Example from Public Folder" />
-      <p></p>
-        <a href="#about" className="btn">Learn More</a>
-      </section>
-      <p></p>
+      <div className="hero-content">
+        {/* Typing Animation for Heading */}
+        <h1>
+          <TypeAnimation
+            sequence={[
+              "Welcome to Social Ease", // First text
+              1000, // Wait 1 second
+              "Empowering Your Communication Skills", // Second text
+              1000, // Wait 1 second
+              "Refine Your Social Confidence", // Third text
+              1000, // Wait 1 second
+            ]}
+            wrapper="span"
+            cursor={true}
+            repeat={Infinity}
+            style={{ display: "inline-block" }}
+          />
+        </h1>
+
+        {/* Paragraph Content */}
+        <p>
+          Empowering you to improve your social and conversational skills with
+          ease. Social Ease is designed to help individuals, especially
+          introverts and those with social anxiety, build and refine
+          communication skills.
+        </p>
+        <p>
+          The app provides practical, engaging tools to simulate real-world
+          interactions and enhance user confidence.
+        </p>
+
+        {/* Learn More Button */}
+        <a href="#about" className="btn">
+          Learn More
+        </a>
+      </div>
+
+      {/* Hero Image */}
+      <img
+        className="hero-image"
+        src="socialeaserer3.png"
+        alt="Hero Animation"
+      />
+    </section>
+      
+
+      {/* About Section */}
       <section className="about" id="about">
-        
-        
-        <img className="underjpgr"  src="socialeasefronty5.gif" alt="Example from Public Folder" />
+        <div className="about-content">
+          <h2>About Social Ease</h2>
+          <p>
+            Social Ease is designed to help introverts and individuals enhance
+            their communication and social skills in a supportive, interactive
+            environment.
+          </p>
+          
+          <img
+            className="about-image"
+            src="socialeasefronty5.gif"
+            alt="About Animation"
+          />
+        </div>
       </section>
 
-      <section className="services" id="services">
-        <h2>Features</h2>
-        <p> </p>
-        <div className="service-cards">
-          <div className="card">
+      {/* Features Section */}
+      <section className="features" id="features">
+        <h2 className="section-title">Features</h2>
+        
+        <p className="section-subtitle">
+          Explore the key features that make Social Ease unique!
+        </p>
+        <p>
+
+        </p>
+       
+        <div className="features-grid">
+          <div className="feature-card">
             <h3>Ice Breaker</h3>
-            <p>Offers small, engaging voice practices for consistent practice.
+            <p>
+              Small, engaging voice practices for consistent practice. Boosts
+              confidence through manageable challenges.
             </p>
-            <p>Boosts confidence through manageable challenges.</p>
           </div>
-          <p></p>
-          <div className="card">
+          
+          <div className="feature-card">
             <h3>Scenario Conversations</h3>
-            <p>Gives tips and tricks using AI to develop a coversation scenario.
-            Available different options.</p>
+            <p>
+              AI-driven tips and tricks to develop realistic conversation
+              scenarios with multiple options to choose from.
+            </p>
           </div>
-          <div className="card">
+          <div className="feature-card">
             <h3>Voice Practice</h3>
-            <p>Provides real-time feedback on word count and summery of the scenario.
-           </p>
-           <p> Uses AI to analyze and improve speech patterns.</p>
+            <p>
+              Real-time feedback on word usage and summaries. AI analysis helps
+              improve speech patterns.
+            </p>
           </div>
-          <div className="card">
+          <div className="feature-card">
             <h3>Progress Tracking</h3>
-            <p>Gives real-time feedback to user.
-           </p>
-           <p> Provides personalized suggesions to user to enhace social skills.</p>
+            <p>
+              Personalized suggestions and performance tracking to help you grow
+              your social skills steadily.
+            </p>
           </div>
-          <div className="card">
+          <div className="feature-card">
             <h3>Community Hub</h3>
-            <p>Connects users to share expirience and tips.
-           </p>
-           <p>  Fosters a supportive envirnment for social growth.</p>
+            <p>
+              Connect with others, share tips, and foster a supportive
+              environment for mutual growth.
+            </p>
+            
           </div>
           
         </div>
         <p></p>
-        <img className="underjpgx"  src="socialeasemenu3gif.gif" alt="Example from Public Folder" />
-        
+        <img
+            className="about-image"
+            src="socialeasemenu3gif.gif"
+            alt="About Animation"
+          />
       </section>
-      <section className="services2" id="Contact">
-        <h3 className="whyy">Why Choosing Us ?</h3>
-        <p> </p>
-        <div className="service-cards2">
-          <div className="card2">
-            
-            <p>Our app, Social Ease, is designed to address the specific challenges faced by introverts and individuals seeking to enhance their social skills. Unlike competitors, we offer a holistic and tailored solution that bridges the gap between learning and real-world application. Here's why we stand out:
-            </p>
-            <p>
-            Comprehensive Features: From conversation scenarios and real-world challenges to voice practice with real-time feedback, our app equips users with practical tools to boost their confidence in various social settings.
 
-            </p>
-            <p>Personalized Approach: Our personality quiz customizes the experience to suit each user's comfort level, ensuring gradual and steady progress.</p>
-            <p>Inclusivity and Practicality: Whether you're overcoming shyness, preparing for professional growth, or navigating new social environments, Social Ease provides a safe and interactive platform.
-
-            </p>
-            <p>Focus on Real-Life Impact: Our app emphasizes actionable, real-world tasks, empowering users to seamlessly translate their skills into everyday interactions.</p>
-            
+      {/* Contact Us Section */}
+      <section className="contact-us" id="contact">
+        <h2 className="section-title">Contact Us</h2>
+        <p className="contact-intro">
+          We'd love to hear from you! Feel free to reach out with any questions
+          or feedback.
+        </p>
+        <form className="contact-form">
+          <div className="form-group">
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
           </div>
-          
-          
-        </div>
-      
-        
-        
-        
-      </section>
-      <section>
-        <h3 className="whyy"lass>Contact Us</h3>
-      </section>
-     
-
-
-    
-      <section className="sectionv">
-        <img className="underjpgi" src="socialeasecomingsoon.png" alt="Example from Public Folder" />
-        <div className="comingsoon">
-          <h6>Mobile App</h6>
-          <p></p>
-          <h6>
-          <p>
-              Coming Soon! <p></p>
-              Social Ease will soon be available on your smartphones, Let's Improve your English Communication Skills </p>
-          </h6>
-          
-        </div>
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" className="btn-submit">
+            Send Message
+          </button>
+        </form>
       </section>
 
+      {/* Footer */}
       <footer className="footer">
-        
-        
         <p>&copy; 2025 Social Ease. All rights reserved.</p>
       </footer>
     </div>
