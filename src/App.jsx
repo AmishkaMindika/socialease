@@ -92,7 +92,7 @@ function App() {
           
           <img
             className="about-image"
-            src="socialeasefronty5.gif"
+            src="socialease.gif"
             alt="About Animation"
           />
         </div>
