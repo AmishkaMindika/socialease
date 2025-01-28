@@ -83,19 +83,15 @@ function App() {
       {/* About Section */}
       <section className="about" id="about">
         <div className="about-content">
-          <h2>About Social Ease</h2>
-          <p>
-            Social Ease is designed to help introverts and individuals enhance
-            their communication and social skills in a supportive, interactive
-            environment.
-          </p>
           
-          <img
+          
+        
+        </div>
+        <img
             className="about-image"
-            src="socialease.gif"
+            src="socialeaseabout6gif.gif"
             alt="About Animation"
           />
-        </div>
       </section>
 
       {/* Features Section */}
@@ -151,7 +147,7 @@ function App() {
         </div>
         <p></p>
         <img
-            className="about-image"
+            className="about-image1"
             src="socialeasemenu3gif.gif"
             alt="About Animation"
           />
@@ -204,6 +200,11 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <p>&copy; 2025 Social Ease. All rights reserved.</p>
+        <img
+            className="robot1"
+            src="socialeaserobot2.gif"
+            alt="Social Ease robot"
+          />
       </footer>
     </div>
   );

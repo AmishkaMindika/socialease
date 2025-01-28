@@ -116,7 +116,7 @@ body {
   align-items: center;
   padding: 50px 20px;
   background-color: #ffffff;
-  gap: 20px;
+  gap: 0px;
   
   
 }
@@ -128,21 +128,43 @@ body {
 }
 
 .about h2 {
-  font-size: 2.5rem;
-  color: #3bb180;
+  font-size: 1.2rem;
+  color: #969797;
   margin-bottom: 20px;
   align-items: center;
-  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+  
+  
 }
 
 .about p {
   font-size: 1.2rem;
   line-height: 1.6;
+  width: 50%;
+  
 }
 
 .about-image {
-  width: 45%;
-  border-radius: 10px;
+  width: 50%;
+  align-items: center;
+  margin-bottom: auto;
+  padding-left: 25%;
+
+  
+  
+  
+}
+.about-image1 {
+  width: 50%;
+  align-items: center;
+  margin-bottom: auto;
+  
+
+  
   
   
 }
@@ -237,7 +259,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #007bff;
+  border-color: #5eb691;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
@@ -246,26 +268,30 @@ textarea {
 }
 
 .btn-submit {
-  background-color: #007bff;
-  color: white;
-  padding: 12px 20px;
+  background-color: #1a2531;
+  color: rgb(156, 223, 206);
+  padding: 10px 20px;
   font-size: 1rem;
   font-weight: bold;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  
+ 
+  
 }
 
 .btn-submit:hover {
-  background-color: #0056b3;
+  background-color: #19191a;
   transform: scale(1.05);
+  
 }
 
 /* Footer */
 .footer {
   background-color: #333;
-  color: #fff;
+  color: #91e7e0;
   padding: 20px;
   text-align: center;
 }
@@ -296,4 +322,10 @@ textarea {
   .features-grid {
     grid-template-columns: 1fr;
   }
+}
+.robot1{
+  position: fixed;   /* Makes the element fixed to the viewport */
+  bottom: 0.25rem;   /* Sets the bottom offset (1 = 0.25rem or 4px) */
+  right: -0.5rem;    /* Sets the right offset (-2 = -0.5rem or -8px) */
+  width: 15%;
 }
