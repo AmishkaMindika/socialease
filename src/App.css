@@ -329,3 +329,91 @@ textarea {
   right: -0.5rem;    /* Sets the right offset (-2 = -0.5rem or -8px) */
   width: 15%;
 }
+/* General styles */
+.download-section {
+  background: linear-gradient(135deg, #ffffff, #dce7e7); /* Vibrant gradient background */
+  color: #337253;
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.download-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 2rem;
+}
+
+.download-image {
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  
+}
+
+/* Content styles */
+.download-content {
+  flex: 1;
+  text-align: left;
+
+}
+
+.download-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.download-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Download buttons */
+.download-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.store-button img {
+  width: 180px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.store-button img:hover {
+  transform: scale(1.1);
+  
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .download-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .download-image {
+    max-width: 300px;
+  }
+
+  .download-content {
+    margin-top: 2rem;
+  }
+
+  .download-content h2 {
+    font-size: 2rem;
+  }
+
+  .store-button img {
+    width: 130px;
+  }
+}
+

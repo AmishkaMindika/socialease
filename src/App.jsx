@@ -196,6 +196,43 @@ function App() {
           </button>
         </form>
       </section>
+      <section className="download-section" id="join">
+      <div className="download-container">
+        {/* Image on the left */}
+        <img
+          className="download-image"
+          src="socialeasedownload1gif.gif"
+          alt="Download Animation"
+        />
+        
+        {/* Content on the right */}
+        <div className="download-content">
+          <h2>Join Social Ease Today</h2>
+          <p>
+            Unlock your potential and improve your social confidence. 
+            Download our app now from the Play Store or App Store and start your journey towards better communication and connection.
+          </p>
+          <div className="download-buttons">
+            <a
+              href="https://play.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="store-button playstore"
+            >
+              <img src="socialeaseplayestore2.png" alt="Google Play" />
+            </a>
+            <a
+              href="https://www.apple.com/app-store/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="store-button appstore"
+            >
+              <img src="socialeaseappstore1.png" alt="App Store" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
       {/* Footer */}
       <footer className="footer">
