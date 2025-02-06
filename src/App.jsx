@@ -152,6 +152,32 @@ function App() {
             alt="About Animation"
           />
       </section>
+      {/* Our Team Section */}
+<section className="our-team" id="team">
+  <h2 className="section-title">Meet Our Team</h2>
+  <p className="section-subtitle">
+    A passionate team dedicated to improving your social confidence.
+  </p>
+
+  <div className="team-grid">
+    {/* Team Member Cards */}
+    {[
+      { name: "Amishka Disanayaka", role: "CEO & Founder", img: "alice.jpg" },
+      { name: "Kenuri", role: "CTO", img: "michael.jpg" },
+      { name: "Inuka", role: "Lead Developer", img: "sarah.jpg" },
+      { name: "Himaz", role: "UI/UX Designer", img: "david.jpg" },
+      { name: "Kabishan", role: "Marketing Head", img: "jessica.jpg" },
+      { name: "Saarujan", role: "Community Manager", img: "robert.jpg" },
+    ].map((member, index) => (
+      <div key={index} className="team-card">
+        <img src={member.img} alt={member.name} className="team-img" />
+        <h3>{member.name}</h3>
+        <p>{member.role}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
 
       {/* Contact Us Section */}
       <section className="contact-us" id="contact">
