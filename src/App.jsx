@@ -165,9 +165,9 @@ function App() {
       { name: "Amishka Disanayaka", role: "Member", img: "amishka.jpg" },
       { name: "Kenuri", role: "Leader", img: "kenuri.jpg" },
       { name: "Inuka", role: "Member", img: "inuka.jpg" },
-      { name: "Himaz", role: "Member", img: "david.jpg" },
-      { name: "Kabishan", role: "Member", img: "jessica.jpg" },
-      { name: "Saarujan", role: "Member", img: "robert.jpg" },
+      { name: "Himaz", role: "Member", img: "Himaz.jpg" },
+      { name: "Kabishan", role: "Member", img: "Kabishan.jpg" },
+      { name: "Saarujan", role: "Member", img: "Saarujan.jpg" },
     ].map((member, index) => (
       <div key={index} className="team-card">
         <img src={member.img} alt={member.name} className="team-img" />
@@ -263,6 +263,11 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <p>&copy; 2025 Social Ease. All rights reserved.</p>
+        <p>contact us </p>
+        <p>Instagram </p>
+        <p>Youtube </p>
+
+
         <img
             className="robot1"
             src="socialeaserobot2.gif"
