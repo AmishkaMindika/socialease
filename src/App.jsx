@@ -264,8 +264,8 @@ function App() {
       <footer className="footer">
         <p>&copy; 2025 Social Ease. All rights reserved.</p>
         <p>contact us </p>
-        <p>Instagram </p>
-        <p>Youtube </p>
+        <p>Instagram- </p>
+        <p>Youtube-  </p>
 
 
         <img
