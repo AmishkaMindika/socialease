@@ -298,9 +298,27 @@ textarea {
 }
 
 .footer p {
-  margin: 0;
+  margin: 5px 0;
   font-size: 1rem;
 }
+
+.footer-link {
+  color: #9be791;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.icon-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -392,7 +410,7 @@ textarea {
 }
 
 .team-card {
-  background: rgb(206, 255, 239);
+  background: rgba(127, 209, 189, 0.338);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

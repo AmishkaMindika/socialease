@@ -162,12 +162,12 @@ function App() {
   <div className="team-grid">
     {/* Team Member Cards */}
     {[
-      { name: "Amishka Disanayaka", role: "Member", img: "amishka.jpg" },
-      { name: "Kenuri", role: "Leader", img: "kenuri.jpg" },
-      { name: "Inuka", role: "Member", img: "inuka.jpg" },
-      { name: "Himaz", role: "Member", img: "Himaz.jpg" },
-      { name: "Kabishan", role: "Member", img: "Kabishan.jpg" },
-      { name: "Saarujan", role: "Member", img: "Saarujan.jpg" },
+      { name: "Amishka Disanayaka", role: "Member", img: "Amishka.jpg" },
+      { name: "Kenuri Kandegama", role: "Leader", img: "Kenuri.jpg" },
+      { name: "Inuka Hansaja", role: "Member", img: "Inuka.jpg" },
+      { name: "Himaz Kuthupdeen", role: "Member", img: "Himaz.jpg" },
+      { name: "Kabishan Shanker", role: "Member", img: "Kabishan.jpg" },
+      { name: "Saarujan Selvaranjan", role: "Member", img: "Saarujan.jpg" },
     ].map((member, index) => (
       <div key={index} className="team-card">
         <img src={member.img} alt={member.name} className="team-img" />
@@ -262,20 +262,35 @@ function App() {
       </div>
     </section>
 
-      {/* Footer */}
-      <footer className="footer">
-        <p>&copy; 2025 Social Ease. All rights reserved.</p>
-        <p>contact us </p>
-        <p>Instagram- </p>
-        <p>Youtube-  </p>
+    <footer className="footer">
+  <p>&copy; 2025 Social Ease. All rights reserved.</p>
+  <h1>Contact Us</h1>
 
+  <p>
+    <a 
+      href="https://www.instagram.com/social_ease_app?igsh=MjdjamtrbXd0ODVk" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="footer-link"
+    >
+      <img src="/inster.jpg" alt="Instagram" className="icon-img" /> Instagram
+    </a>
+  </p>
 
-        <img
-            className="robot1"
-            src="socialeaserobot2.gif"
-            alt="Social Ease robot"
-          />
-      </footer>
+  <p>
+    <a 
+      href="https://www.youtube.com/@SocialEase-e2l" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="footer-link"
+    >
+      <img src="/youtube.png" alt="YouTube" className="icon-img" /> YouTube
+    </a>
+  </p>
+
+  <img className="robot1" src="socialeaserobot2.gif" alt="Social Ease robot" />
+</footer>
+
     </div>
   );
 }
