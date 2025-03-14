@@ -162,12 +162,12 @@ function App() {
   <div className="team-grid">
     {/* Team Member Cards */}
     {[
-      { name: "Amishka Disanayaka", role: "Member", img: "Amishka.jpg" },
+      { name: "Amishka Disanayaka", role: "Co-Founder", img: "Amishka.jpg" },
       { name: "Kenuri Kandegama", role: "Leader", img: "Kenuri.jpg" },
-      { name: "Inuka Hansaja", role: "Member", img: "Inuka.jpg" },
-      { name: "Himaz Kuthupdeen", role: "Member", img: "Himaz.jpg" },
-      { name: "Kabishan Shanker", role: "Member", img: "Kabishan.jpg" },
-      { name: "Saarujan Selvaranjan", role: "Member", img: "Saarujan.jpg" },
+      { name: "Inuka Hansaja", role: "Co-Founder", img: "Inuka.jpg" },
+      { name: "Himaz Kuthupdeen", role: "Co-Founder", img: "Himaz.jpg" },
+      { name: "Kabishan Shanker", role: "Co-Founder", img: "Kabishan.jpg" },
+      { name: "Saarujan Selvaranjan", role: "Co-Founder", img: "Saarujan.jpg" },
     ].map((member, index) => (
       <div key={index} className="team-card">
         <img src={member.img} alt={member.name} className="team-img" />
